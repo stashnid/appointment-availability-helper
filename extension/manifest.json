@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Талон — особистий помічник СЦ",
+  "version": "0.1.5",
+  "description": "Локальний помічник для одного запису до ТСЦ №2641. CAPTCHA проходить користувач.",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://eqn.hsc.gov.ua/*"
+      ],
+      "js": [
+        "helper.js"
+      ],
+      "run_at": "document_idle"
+    }
+  ]
+}
