@@ -1,0 +1,12 @@
+{
+  "name": "appointment-availability-helper",
+  "version": "0.1.5",
+  "private": true,
+  "description": "Chrome extension prototype for monitoring appointment availability",
+  "scripts": {
+    "test": "node tests/time-selection.test.js && playwright test"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.58.0"
+  }
+}
